@@ -105,6 +105,28 @@
         margin-top: 10px;
     }
     
+    .get-started-btn {
+        background-color: #2B6A48; /* Dark green from your color scheme */
+        color: white;
+        padding: 12px 30px;
+        border: none;
+        border-radius: 25px;
+        font-size: 16px;
+        font-weight: bold;
+        cursor: pointer;
+        transition: all 0.3s ease;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        display: block; /* Makes the button a block element */
+        margin: 20px auto; /* Centers the button and adds vertical spacing */
+    }
+
+    .get-started-btn:hover {
+        background-color: #93CCAD; /* Light green from your color scheme */
+        transform: translateY(-2px);
+        box-shadow: 0 6px 8px rgba(0, 0, 0, 0.15);
+    }
   </style>
 </head>
 
@@ -118,24 +140,18 @@
     <a href="#">Team</a>
     <a href="#">Blog</a>
     <a href="#">Contact</a>
-    <a href="#">Log In</a>
+    <a href="login.php">Log In</a>
     <a href="#">Sign Up</a>
   </nav>
 
   <section class="rectangle">
+    <h1>Welcome To Trigo</h1>
     <img src="dcc.png" alt="Your Image">
-    <h2>Log in to Trigo</h2>
-    <form id="userTypeDropdown">
-      <label for="userType">Select User Type:</label>
-      <select id="userType" name="userType" onchange="redirectToPage()">
-        <option value="Commuter">Commuter</option>
-        <option value="Driver">Driver</option>
-      </select>
-    </form>
+    <a href="login.php" style="text-decoration: none;"><button class="get-started-btn">GET STARTED</button></a>
   </section>
 
   <footer>
-    &copy; 2024 Your Company Name. All rights reserved.
+    &copy; 2024 Trigo. All rights reserved.
   </footer>
 
   <script>

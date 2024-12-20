@@ -186,6 +186,7 @@
             <option value="">Select Role</option>
             <option value="commuter">Commuter</option>
             <option value="driver">Driver</option>
+            <option value="admin">Admin</option>
         </select>
         First Name: <input type="text" name="first_name"><br>
         Last Name: <input type="text" name="last_name"><br>

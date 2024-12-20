@@ -229,7 +229,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     <p class="mb-2"><span class="font-bold">Driver Location:</span> <?php echo isset($driver["driver_location"]) ? $driver["driver_location"] : "Not set"; ?></p>
 
     <!-- Edit button -->
-    <a href="driverprofileedit.php?user_id=<?php echo $user_id?>"><button class="bg-blue-500 text-white px-4 py-2 rounded">Edit</button></a>
+    <a href="#"><button class="bg-blue-500 text-white px-4 py-2 rounded">Edit</button></a>
 
     <!-- Save Changes button (initially hidden) -->
     <button class="bg-green-500 text-white px-4 py-2 rounded ">Save Changes</button>
