@@ -32,10 +32,10 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
                 header("Location: profile.php");
                 exit();
             } elseif ($row['role'] === 'driver') {
-                header("Location: driverprofile.php");
+                header("Location: sample.php");
                 exit();
             } elseif ($row['role'] === 'admin') {
-                header("Location: admindashboard.php");
+                header("Location: ts.php");
                 exit();
             }
         } else {

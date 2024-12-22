@@ -1,9 +1,8 @@
 <?php
-// Start the session
 session_start();
 
-// Include the database configuration
-include 'config.php';
+// Include database connection file
+include('config.php');  // You'll need to replace this with your actual database connection code
 ?>
 
 <!DOCTYPE html>

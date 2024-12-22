@@ -189,6 +189,7 @@
             <option value="admin">Admin</option>
         </select>
         First Name: <input type="text" name="first_name"><br>
+        Middle Name: <input type="text" name="middle_name"><br>
         Last Name: <input type="text" name="last_name"><br>
         Email: <input type="email" name="email"><br>
         Contact Number: <input type="text" name="contact_number"><br>
