@@ -45,7 +45,7 @@
                     <a class="nav-link" href="#" data-bs-toggle="modal" data-bs-target="#postAnnouncementModal">Post Announcement</a>
                 </li>
                 <li class="nav-item mb-3">
-                    <a class="nav-link" href="#drivers">Drivers</a>
+                    <a class="nav-link" href="val_list.php">Validation Center</a>
                 </li>
                 <li class="nav-item mb-3">
                     <a class="nav-link" href="#tricycles">Tricycles</a>
